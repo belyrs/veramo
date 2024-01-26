@@ -1052,8 +1052,8 @@ importers:
         specifier: ^6.9.0
         version: 6.9.0
       uint8arrays:
-        specifier: ^4.0.6
-        version: 4.0.6
+        specifier: ^5.0.0
+        version: 5.0.1
       uuid:
         specifier: ^9.0.0
         version: 9.0.0
@@ -1148,8 +1148,8 @@ importers:
         specifier: ^0.3.17
         version: 0.3.17(pg@8.11.2)(sqlite3@5.1.6)(ts-node@10.9.1)
       uint8arrays:
-        specifier: ^4.0.6
-        version: 4.0.6
+        specifier: ^5.0.0
+        version: 5.0.1
     devDependencies:
       '@keyv/compress-brotli':
         specifier: 1.1.4
@@ -1616,8 +1616,8 @@ importers:
         specifier: ^12.0.1
         version: 12.0.1
       uint8arrays:
-        specifier: ^4.0.6
-        version: 4.0.6
+        specifier: ^5.0.0
+        version: 5.0.1
     devDependencies:
       '@types/debug':
         specifier: 4.1.8
@@ -15802,6 +15802,7 @@ packages:
     dependencies:
       is-hex-prefixed: 1.0.0
       strip-hex-prefix: 1.0.0
+    bundledDependencies: false
 
   /ethr-did-resolver@10.1.0:
     resolution: {integrity: sha512-PH3R8UQGpJGWXaVVSWPppPiEzb7eHrzG6yTCGtk23Fw8Et2totj+7V1id+zxCQvToM9cW+CHA/+k64F8xpk/Mw==}
@@ -21327,6 +21328,10 @@ packages:
     resolution: {integrity: sha512-s01wijBJoDUqESWSzePY0lvTw7J3PVO9x2Cc6ASI5AMZM2Gnhh7BC17+nlFhHKU7dDzaCaRfb+NiqNzOsgPUoQ==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
 
+  /multiformats@13.0.1:
+    resolution: {integrity: sha512-bt3R5iXe2O8xpp3wkmQhC73b/lC4S2ihU8Dndwcsysqbydqb8N+bpP116qMcClZ17g58iSIwtXUTcg2zT4sniA==}
+    dev: false
+
   /multiformats@9.9.0:
     resolution: {integrity: sha512-HoMUjhH9T8DDBNT+6xzkrd9ga/XiBI4xLr58LJACwK6G3HTOPeMz4nB4KJs33L2BelrIJa7P0VuNaVF3hMYfjg==}
 
@@ -26636,6 +26641,12 @@ packages:
     resolution: {integrity: sha512-4ZesjQhqOU2Ip6GPReIwN60wRxIupavL8T0Iy36BBHr2qyMrNxsPJvr7vpS4eFt8F8kSguWUPad6ZM9izs/vyw==}
     dependencies:
       multiformats: 12.0.1
+
+  /uint8arrays@5.0.1:
+    resolution: {integrity: sha512-ND5RpJAnPgHmZT7hWD/2T4BwRp04j8NLKvMKC/7bhiEwEjUMkQ4kvBKiH6hOqbljd6qJ2xS8reL3vl1e33grOQ==}
+    dependencies:
+      multiformats: 13.0.1
+    dev: false
 
   /unbox-primitive@1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}
