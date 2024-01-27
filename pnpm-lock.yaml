@@ -402,8 +402,8 @@ importers:
   packages/core-types:
     dependencies:
       credential-status:
-        specifier: ^2.0.5
-        version: 2.0.5
+        specifier: ^3.0.0
+        version: 3.0.0
       debug:
         specifier: ^4.3.3
         version: 4.3.4
@@ -1589,8 +1589,8 @@ importers:
         specifier: workspace:^
         version: link:../core-types
       credential-status:
-        specifier: ^2.0.5
-        version: 2.0.5
+        specifier: ^3.0.0
+        version: 3.0.0
       cross-fetch:
         specifier: ^4.0.0
         version: 4.0.0
@@ -10388,6 +10388,7 @@ packages:
       '@stablelib/binary': 1.0.1
       '@stablelib/hash': 1.0.1
       '@stablelib/wipe': 1.0.1
+    dev: true
 
   /@stablelib/sha512@1.0.1:
     resolution: {integrity: sha512-13gl/iawHV9zvDKciLo1fQ8Bgn2Pvf7OV6amaRVKiq3pjQ3UmEpXxWiAfV8tYjUpeZroBxtyrwtdooQT/i3hzw==}
@@ -12874,6 +12875,7 @@ packages:
 
   /bech32@2.0.0:
     resolution: {integrity: sha512-LcknSilhIGatDAsY1ak2I8VtGaHNhgMSYVxFrGLXv+xLHytaKZKcaUJJUE7qmBr7h33o5YQwP55pMI0xmkpJwg==}
+    dev: true
 
   /before-after-hook@2.2.3:
     resolution: {integrity: sha512-NzUnlZexiaH/46WDhANlyR2bXRopNg4F/zuSA3OpZnllCUgRaOF2znDioDWrmbNVsuZk6l9pMquQB38cfBZwkQ==}
@@ -14202,13 +14204,6 @@ packages:
   /create-require@1.1.1:
     resolution: {integrity: sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==}
 
-  /credential-status@2.0.5:
-    resolution: {integrity: sha512-hh0pOcRidROn4MC1wF3vNURhPEMSzm3RcpFIl5PFVj5HWgCaZy16nXmrOl5cmr50Jhp2WV48cWbNMxh4OFWU+w==}
-    dependencies:
-      did-jwt: 6.11.6
-      did-resolver: 4.1.0
-    dev: false
-
   /credential-status@2.0.6:
     resolution: {integrity: sha512-l5ZwSbX/UXFJ3DQ3dFt4rc2BtfUu/rhlkefR7BL9EZsKPyCe21okJA9mDy4h/nXvMEwpYjSQEa5vzR7KZqhI9g==}
     dependencies:
@@ -14895,6 +14890,7 @@ packages:
       js-sha3: 0.8.0
       multiformats: 9.9.0
       uint8arrays: 3.1.1
+    dev: true
 
   /did-jwt@7.4.2:
     resolution: {integrity: sha512-bdMVrUKD8wBiYihrxm5Bso33vYuw5DHxxN6y+IFSpHQpYQF16nuW6T8+FCrVkS5gDYE6jFZmnkqjJwycT4K7AA==}
@@ -15802,6 +15798,7 @@ packages:
     dependencies:
       is-hex-prefixed: 1.0.0
       strip-hex-prefix: 1.0.0
+    bundledDependencies: false
 
   /ethr-did-resolver@10.1.0:
     resolution: {integrity: sha512-PH3R8UQGpJGWXaVVSWPppPiEzb7eHrzG6yTCGtk23Fw8Et2totj+7V1id+zxCQvToM9cW+CHA/+k64F8xpk/Mw==}
